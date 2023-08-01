@@ -1,0 +1,75 @@
+.container {
+    padding: 5px;
+}
+
+.container__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin: 2px;
+    background-color: white;
+}
+
+.container__item--list {
+    padding: 10px;
+    margin: 2px;
+    background-color: white;
+}
+
+.header {
+    margin: 2px;
+}
+
+.tasks__item {
+    display: grid;
+    grid-template-columns: 40px 2fr 40px;
+    margin: 5px;
+}
+
+.js-remove{
+    margin: 0, 5px;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    transition: 1s;
+}
+.delete__button:hover {
+    transform: scale(1.1);
+}
+
+.js-toggleDone {
+    margin: 0, 5px;
+    padding: 10px;
+    background-color: green;
+    border: none;
+    color: white;
+    transition: 1s;
+}
+.js-toggleDone:hover {
+    transform: scale(1.1);
+}
+
+.task__list {
+    padding: 10px;
+
+}
+
+.task__list--done {
+    padding: 10px;
+    text-decoration: line-through;
+}
+
+.container__button {
+    color: teal;
+    margin: 1px;
+    padding: 1px;
+    border: none;
+    background: none;
+}
+.container__button:disabled{
+    color: rgb(170, 170, 170);
+}
+.task__hiden {
+    display: none;
+}
